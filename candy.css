@@ -1,0 +1,55 @@
+body {
+    background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 5px solid slategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+#game-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+#info {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+body {
+    color: rgb(32, 32, 13); /* sets font color */
+    font-family: Arial, sans-serif; /* optional: sets a readable font */
+}
+#score, #moves, #timer {
+    color: rgb(32, 32, 13);
+    font-weight: bold;
+}
